@@ -1,0 +1,64 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+#bg{
+    background-color: rgba(242, 241, 236, 0.689);
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    border-color:brown(192, 1, 1);
+    border-radius: 15px;
+}
+#d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(254, 254, 254);
+    background-color: rgba(0, 0, 0, 0.79);
+    padding: 20px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+#sch{
+    width: 300px;
+}
+h2{
+    font-size: xx-large;
+} 
+#scale{
+    width: 23%;
+    height: 6%;
+}
+input{
+    font-size: x-large;
+    font-weight: bolder;
+}
+select{
+    font-size: large;
+    font-weight: bolder;
+}
+h3{
+    font-size: xx-large;
+}
+button{
+    width: 20%;
+    height: 7%;
+    background: rgba(0, 0, 0, 0.605);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#result{
+    padding: 20px;
+    font-size: 40px;
+    font-family: Trebuchet MS;
+    color: rgba(4, 22, 58, 0.971);
+    font-weight: bolder;
+}
